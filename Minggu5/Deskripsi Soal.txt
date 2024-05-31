@@ -1,0 +1,83 @@
+Soal 1
+Dengan memanfaatkan rekursi, tampilkan deret fibonacci sebanyak nilai n yang diinputkan.
+
+Format Masukan
+Sebuah baris berisi bilangan n yang menyatakan banyak bilangan fibonacci yang ingin ditampilkan.
+
+Format Keluaran
+Sebuah baris berisi deret bilangan fibonacci
+
+Contoh Masukan 1
+1
+Contoh Keluaran 1
+1
+
+Contoh Masukan 2
+6
+Contoh Keluaran 2
+1 1 2 3 5 8
+
+Contoh Masukan 3
+10
+Contoh Keluaran 3
+1 1 2 3 5 8 13 21 34 55
+
+Soal 2
+Binary number system adalah sistem bilangan yang menggunakan 2 basis bilangan, yaitu 1 dan 0, sistem bilangan ini sangat sering digunakan terutama di bidang komputer karena sistem bilangan ini merupakan bahasa yang menjadi dasar untuk manusia berkomunikasi dengan mesin. Dengan memanfaatkan rekursi, buatlah program untuk mengkonversi bilangan desimal menjadi bilangan 
+biner.
+
+Format Masukan
+Sebuah baris berisi bilangan desimal yang akan dikonversi
+Format Keluaran
+Sebuah baris berisi bilangan biner dari hasil konversi bilangan desimal yang dimasukkan
+
+Contoh Masukan 1
+2
+Contoh Keluaran 1
+10
+
+Contoh Masukan 2
+28
+Contoh Keluaran 2
+11100
+
+Contoh Masukan 3
+2000
+Contoh Keluaran 3
+11111010000
+
+Soal 3
+Diberikan sekumpulan bilangan acak, tentukan kombinasi penjumlahan yang memungkinkan untuk sebuah bilangan n.
+
+Format Masukan
+2 buah baris bilangan, baris pertama berisi sekumpulan bilangan acak, baris kedua berisi bilangan yang ingin dicari kombinasi penjumlahannya.
+Format Keluaran
+Semua kemungkinan penjumlahan yang dapat menghasilkan bilangan n
+
+Contoh Masukan 1
+2 3 5 7
+7
+
+Contoh Keluaran 1
+2 2 3 
+2 5 
+7
+
+Contoh Masukan 2
+1 2
+3
+
+Contoh Keluaran 2
+1 1 1 
+1 2
+
+Contoh Masukan 3
+100 200 350
+800
+Contoh Keluaran 3
+100 100 100 100 100 100 100 100 
+100 100 100 100 100 100 200 
+100 100 100 100 200 200 
+100 100 200 200 200 
+100 350 350 
+200 200 200 200 
