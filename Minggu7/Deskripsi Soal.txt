@@ -1,0 +1,77 @@
+Soal 1
+Pak Dengklek memiliki sebuah perpustakaan yang ramai dikunjungi oleh mahasiswa atau masyarakat umum. Dikarenakan kurangnya budaya dalam pengembalian buku pada rak sesuai dengan rak pengambilan. Agar buku di perpustakaan tetap rapi, maka pak dengklek merekrut karyawan untuk membantu menyusun buku kembali ke 3 rak buku yang Dia miliki yaitu A,B,C. 
+Adapun aturan yang dibuat dalam penyusunan buku adalah :
+Karyawan harus konfirmasi berapa banyak buku yang akan dipindahkan dan hanya 1 buku yang dapat dipindahkan dalam satu waktu. Setiap penyusunan buku ke rak, wajib menyusun buku paling atas dari tumpukan yang dibawa, yaitu buku hanya dapat dipindahkan jika buku tersebut ada di tumpukan paling atas dan dengan catatan tidak ada tumpukan diatas buku paling kecil.
+Sebagai programmer, anda diminta untuk membuat sebuah program untuk mengatur perpindahan buku dari rak A, B sampai ketumpukan Rak C.
+
+Format masukan: Masukkan N sebagai jumlah buku
+Format Keluaran: Tampilkan proses perpindahan N buku dari A sampai ke Rak C
+
+Contoh masukan 1:
+2
+Contoh Keluaran 1:
+Buku 1 pindah dari RaK A ke B
+Buku 2 pindah dari Rak A ke C
+Buku 1 pindah dari Rak B ke C
+
+Contoh masukan 2:
+3
+Contoh Keluaran 2:
+Buku 1 Pindah ke Rak A ke C
+Buku 2 Pindah dari Rak A ke B
+Buku 1 Pindah dari Rak C ke B
+Buku 3 Pindah dari Rak A ke C
+Buku 1 Pindah dari Rak B ke A
+Buku 2 Pindah dari Rak B ke C
+Buku 1 Pindah dari Rak A ke C
+
+Soal 2
+Pak Dengklek memiliki banyak sekali bebek. Hari ini ia ingin mendata bebek-bebek kesayangannya berdasarkan beratnya. Terdapat N ekor bebek yang memiliki beratnya masing-masing. Pak Dengklek ingin menyortir bebek dari berat teringan ke terberat. Bantulah Pak Dengklek menyortir bebek-bebek tersebut.
+
+Format Masukan: Baris pertama berisi sebuah bilangan bulat N. Baris kedua berisi N buah bilangan 
+bulat yang menyatakan berat-berat dari bebek-bebek secara acak. 
+Format Keluaran: Tampilkan berat-berat bebek setelah di sortir dari ringan ke berat.
+
+Contoh Masukan
+12
+34 21 45 32 12 31 19 23 54 31 25 272
+Contoh Keluaran
+Bebek ke-1: 12
+Bebek ke-2: 19
+Bebek ke-3: 21
+Bebek ke-4: 23
+Bebek ke-5: 25
+Bebek ke-6: 31
+Bebek ke-7: 31
+Bebek ke-8: 32
+Bebek ke-9: 34
+Bebek ke-10: 45
+Bebek ke-11: 54
+Bebek ke-12: 272
+
+Soal 3
+Pak Dengklek mempunyai seekor ayam yang bernama Gajah (namanya memang aneh). Gajah adalah seekor ayam yang dapat belajar dengan jauh lebih cepat dari ayam pada umumnya. Bahkan, Gajah dapat menghafalkan nama-nama orang!Pada suatu hari, Pak Dengklek mengadakan acara yang mengundang N orang. Pak Dengklek mempunyai daftar N orang tersebut. Akan tetapi, saat menghubungi orang-orang tersebut, Pak Dengklek kebingungan karena namanya terlalu acak-acakan (tidak terurut). Karena itu, si Gajah, yang juga dijadikan asisten Pak Dengklek, dimintai Pak Dengklek untuk mengurutkan nama-nama dari N orang tersebut, agar dapat menghubungi dengan lebih mudah.
+Dalam pengurutannya, kata-kata diurutkan berdasarkan banyaknya hurufnya, dari yang paling sedikit ke yang paling banyak. Jika banyak hurufnya sama, maka kemudian diurutkan membesar secara leksikografis.
+Walaupun Gajah merupakan seekor ayam yang pintar, akan tetapi ia kesulitan karena namanamanya sangat banyak. Gajah meminta bantuan Anda untuk mengurutkannya. Bantulah Gajah!
+
+Format Masukan: Baris pertama berisi sebuah bilangan bulat N. N baris berikutnya masing-masing 
+berisi sebuah nama.
+Format Keluaran: N buah baris berisi nama-nama yang sudah diurutkan berdasarkan aturan pada 
+deskripsi.
+
+Contoh Masukan:
+6
+angela
+budi
+didi
+man
+andri
+sani
+
+Contoh Keluaran :
+man
+budi
+didi
+sani
+andri
+angela
