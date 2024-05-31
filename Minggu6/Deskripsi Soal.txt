@@ -1,0 +1,22 @@
+Pak Ganesh memiliki peternakan yang sangat besar. Di dalam peternakan itu ada banyak sekali hewan ternak, maksimum 2.000.000.000 ekor. Di dalam peternakan tersebut, hewannya juga bermacam-macam: ada kuda, sapi, ayam, burung, kerbau, dan lain-lain (dan tentu saja ada bebek). Secara umum, ada N jenis hewan ternak di peternakan tersebut, dan untuk setiap jenis hewan ke-i ada Xi ekor.
+Karena terkagum-kagum dengan banyaknya hewan di peternakan Pak Ganush, kepala desa suka berkunjung ke peternakan tersebut dan membuat suatu permainan. Hewan-hewan ternak itu dibariskan, mulai dari semua jenis ke-1, lalu semua jenis ke-2, dan seterusnya sampai dengan jenis ke-N. Setelah itu, kepala desa akan menanyakan Q buah pertanyaan, yang setiap pertanyaan berbunyi seperti ini: "Hewan jenis keberapakah yang berada pada urutan ke-Yj dari depan?"
+Tentu Pak Ganush kebingungan menjawab pertanyaan-pertanyaan kepala desa. Bantulah Pak Ganush dengan membuat program yang akan menjawab pertanyaan-pertanyaan tersebut dengan cepat.
+
+Format Masukan:
+Baris pertama berisi sebuah bilangan bulat N. N baris berikutnya berisi X1, X2, ..., XN, satu bilangan per baris. Setelah itu, baris berikutnya berisi sebuah bilangan bulat Q. Lalu, Q baris berikutnya berisi Y1, Y2, ..., YQ, satu bilangan per baris.
+
+Format Keluaran: Keluaran terdiri atas Q baris. Baris ke-j berisi jawaban atas pertanyaan "Hewan jenis keberapakah yang berada pada urutan ke-Yj dari depan?"
+
+Contoh Masukan:
+3
+10
+10
+10
+3
+5
+15
+25
+Contoh Keluaran:
+1
+2
+3
